@@ -11,19 +11,3 @@ spec:
       ports:
         - containerPort: 8080 #only for docs
       imagePullPolicy: IfNotPresent
-
----
-
-apiVersion: v1
-kind: Pod
-
-metadata:
-  name: spring-pod-2
-
-spec:
-  containers:
-    - name: spring-container
-      image: spring-server
-      ports:
-        - containerPort: 8080 #only for docs
-      imagePullPolicy: IfNotPresent
