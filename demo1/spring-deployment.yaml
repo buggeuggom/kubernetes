@@ -32,6 +32,6 @@ spec:
                   key: my-account # ConfigMap에 설정되어 있는 Key값
             - name: MY_PASSWORD
               valueFrom:
-                configMapKeyRef:
-                  name: spring-config
+                secretKeyRef:
+                  name: spring-secret
                   key: my-password

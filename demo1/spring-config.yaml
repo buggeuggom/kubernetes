@@ -8,4 +8,3 @@ metadata:
 # Key, Value 형식으로 설정값 저장
 data:
   my-account: hwanginkyu42
-  my-password: password123
